@@ -2,6 +2,8 @@ For the pickle files containing the instances we use pandas to open the files:
 Here is a simple function implementation for opening the files.
 
 
+    import pandas as pd
+    
     def ReadInstanceCFP(InstanciaFile):
         
         Data = pd.read_pickle(InstanciaFile)
